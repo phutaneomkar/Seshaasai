@@ -112,7 +112,26 @@
     h2.h2head {
     margin-bottom: 25px;
 }
-    
+.background-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.background-video {
+  pointer-events: none; /* Prevent user interaction */
+}
+@media screen and (min-width:325px) {
+  #main-banner{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width:426px) {
+  #main-banner{
+    margin-top: 50px;
+  }
+}
+
+
   </style>
 </head>
 <body>
@@ -131,9 +150,9 @@
       </div>
 
       <!-- Main Content -->
-      <div class="row g-4 mt-5" id="main-banner">
+      <div class="row g-4" id="main-banner">
         <!-- Left Column -->
-        <div class="col-lg-8 col-md-6 col-sm-12 mt-5">
+        <div class="col-lg-8 col-md-6 col-sm-12">
           <div class="slider">
             <div class="slider">
                 <div class="slide active">
