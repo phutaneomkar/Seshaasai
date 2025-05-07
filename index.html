@@ -55,11 +55,11 @@
     }
 
     .categoryban {
-      background: #fff;
-      color: #000;
-      padding: 5px 10px;
-      font-size: 12px;
-      border-radius: 10px;
+      color: #ffffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid;
     }
 
     .slide {
@@ -119,6 +119,9 @@
 .background-video {
   pointer-events: none; /* Prevent user interaction */
 }
+strong.ctabtns {
+    font-size: 22px;
+}
 @media screen and (min-width:325px) {
   #main-banner{
     margin-top: 20px;
@@ -144,10 +147,10 @@
 
     <div class="container">
       <!-- Top Bar -->
-      <div class="d-flex justify-content-between align-items-center mb-4">
+      <!-- <div class="d-flex justify-content-between align-items-center mb-4">
         <img src="https://seshaasai.com/assets/img/logo-final.svg" alt="Seshasai Logo" style="height: 40px;">
         <button id="contact-btn" class="btn btn-light rounded-pill px-4">Contact</button>
-      </div>
+      </div> -->
 
       <!-- Main Content -->
       <div class="row g-4" id="main-banner">
@@ -162,7 +165,9 @@
                     <li>Choose from multiple formats – hybrid, insert, or edge-finished.</li>
                     <li>Position your brand in the premium space.</li>
                   </ul>
-                  <button class="cta-btn" onclick="window.location.href='#calendars';">Get a full sample kit</button>
+                  <hr>
+                  <strong class="ctabtns">Get a full sample kit</strong>
+                 
                   <p class="fw-semibold">Meet us at <strong>Booth #G-5, Dubai Fintech Summit</strong></p>
                 </div>
               
@@ -173,7 +178,9 @@
                     <li>Options include wood grain and rPVC cards</li>
                     <li>Support green branding strategies.</li>
                   </ul>
-                  <button class="cta-btn" onclick="window.location.href='#calendars';">Request samples of our eco-friendly range.</button>
+                  <hr>
+                  <strong class="ctabtns">Request samples of our eco-friendly range.</strong>
+                  
                   <p class="fw-semibold">Meet us at <strong>Booth #G-5, Dubai Fintech Summit</strong></p>
                 </div>
               
@@ -184,7 +191,9 @@
                     <li>Create custom shapes aligned with your brand logo or mascot</li>
                     <li>Boost brand engagement and cardholder attachment.</li>
                   </ul>
-                  <button class="cta-btn"  onclick="window.location.href='#calendars';">Connect with us to develop your chip design.</button>
+                  <hr>
+                  <strong class="ctabtns">Connect with us to develop your chip design.</strong>
+                 
                   <p class="fw-semibold">Meet us at <strong>Booth #G-5, Dubai Fintech Summit</strong></p>
                 </div>
               
@@ -195,7 +204,9 @@
                     <li>Adheres to any smooth surface including mobiles, wallets and keychains.</li>
                     <li>Add a layer of convenience to daily payments.</li>
                   </ul>
-                  <button class="cta-btn"  onclick="window.location.href='#calendars';">Get sample sticker set.</button>
+                  <hr>
+                  <strong class="ctabtns">Get sample sticker set.</strong>
+                  
                   <p class="fw-semibold">Meet us at <strong>Booth #G-5, Dubai Fintech Summit</strong></p>
                 </div>
               
@@ -206,7 +217,9 @@
                     <li>Works with existing POS terminals – no need for upgrades.</li>
                     <li>Reinforce your brand as a tech-forward institution.</li>
                   </ul>
-                  <button class="cta-btn"  onclick="window.location.href='#calendars';">Upgrade your card portfolio with biometric cards.</button>
+                  <hr>
+                  <strong class="ctabtns">Upgrade your card portfolio with biometric cards.</strong>
+                  
                   <p class="fw-semibold">Meet us at <strong>Booth #G-5, Dubai Fintech Summit</strong></p>
                 </div>
               
@@ -217,7 +230,9 @@
                     <li>Supports EMV payments and RFID/ID-based access.</li>
                     <li>Streamline user experience across systems.</li>
                   </ul>
-                  <button class="cta-btn"  onclick="window.location.href='#calendars';">Get a sample dual card.</button>
+                  <hr>
+                  <strong class="ctabtns">Get a sample dual card.</strong>
+                 
                   <p class="fw-semibold">Meet us at <strong>Booth #G-5, Dubai Fintech Summit</strong></p>
                 </div>
               </div>
@@ -248,8 +263,10 @@
           <button class="book-btn mb-3">Book a personalized walkthrough with our experts</button>
           <div class="calendar" id="calendars">
             <div class="calendar-grid">
-              <div class="calendly-inline-widget" data-url="https://calendly.com/alroy-menezes-seshaasai/dubai-fintech-summit?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=773dbd"></div>
-              <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+             <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/alroy-menezes-seshaasai/dubai-fintech-summit?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=773dbd" style="min-width:320px;height:500px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
             </div>
           </div>
         </div>
